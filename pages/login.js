@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import Head from "next/head"
 import { useRouter } from "next/router"
-import Layout, { siteTitle } from "../components/layout"
-import utilStyles from "../styles/utils.module.css"
-import { supabase } from '../utils/supabase'
+import Layout, { siteTitle } from "@/components/layout"
+import utilStyles from "@/styles/utils.module.css"
+import { supabase } from '@/utils/supabase'
 
 export default function Login() {
   const router = useRouter()

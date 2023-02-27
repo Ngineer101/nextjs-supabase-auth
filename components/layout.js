@@ -1,8 +1,8 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
-import styles from "../styles/layout.module.css"
-import utilStyles from "../styles/utils.module.css"
+import styles from "@/styles/layout.module.css"
+import utilStyles from "@/styles/utils.module.css"
 
 const name = "Blog of John Doe"
 export const siteTitle = "Authorization with Next.js"

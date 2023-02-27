@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import Head from "next/head"
-import utilStyles from "../styles/utils.module.css"
-import Layout, { siteTitle } from "../components/layout"
-import { supabase } from '../utils/supabase'
+import utilStyles from "@/styles/utils.module.css"
+import Layout, { siteTitle } from "@/components/layout"
+import { supabase } from '@/utils/supabase'
 
 export default function SignupPage() {
   const [email, setEmail] = useState("")

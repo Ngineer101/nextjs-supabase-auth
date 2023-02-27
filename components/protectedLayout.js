@@ -3,9 +3,9 @@ import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import styles from "../styles/layout.module.css"
-import utilStyles from "../styles/utils.module.css"
-import { supabase } from '../utils/supabase'
+import styles from "@/styles/layout.module.css"
+import utilStyles from "@/styles/utils.module.css"
+import { supabase } from '@/utils/supabase'
 
 const name = "Blog of John Doe"
 const siteTitle = "Authorization with Next.js"

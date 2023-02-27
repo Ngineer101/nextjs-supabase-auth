@@ -1,5 +1,5 @@
 import Head from "next/head"
-import ProtectedLayout from "../../components/protectedLayout"
+import ProtectedLayout from "@/components/protectedLayout"
 
 export default function SecondPost() {
   return (
